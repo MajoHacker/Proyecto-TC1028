@@ -8,7 +8,7 @@ Espero les guste :)
 
 "En la Copa Mundial Masculina de la FIFA, que se celebra cada cuatro años, 32 naciones compiten entre sí por el título. Los distintos clasificatorios continentales dan paso a una fase final de lo más emocionante, que congrega a los aficionados en torno a la pasión y el amor por el deporte rey." (FIFA, 2022) 
 
-Este año se jugara la 
+Este año se jugara la edición
 
 
 
