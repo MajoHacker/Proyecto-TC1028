@@ -27,17 +27,188 @@ Si comenzar es == 0:
 
   volver a mostar la pregunta
   
- contar_puntos: variable que contara nuestros puntos
+contar_puntos: variable que contara nuestros puntos
 
-Pregunta 1: ¿?
+Pregunta_1: ¿?
 
 Opciones:
 
 a:
+
 b:
+
 c:
+
 d:
 
+Si Pregunta_1 == c:
+  
+  contar_puntos + 1
+  
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
+ Pregunta_2: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_2 == a:
+  
+  contar_puntos + 1
+  
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
+Pregunta_3: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_3 == a:
+  
+  contar_puntos + 1
+  
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
+Pregunta_4: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_4 == b:
+  
+  contar_puntos + 1
+  
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
+Pregunta_5: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_5 == d:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_6: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_6 == c:
+  
+  contar_puntos + 1
+  
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_7: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_7 == b:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_8: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_8 == d:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
+Pregunta_9: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_9 == a:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+  
 
 
 
