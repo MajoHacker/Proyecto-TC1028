@@ -189,17 +189,17 @@ Si pregunta_8 == d:
 
 Sino mostrar incorrecto
   
-pregunta_9: ¿?
+pregunta_9: ¿Cuál es el jugador que ha anotado más goles en los mundiales?
 
 Opciones:
 
-a:
+a: Miroslav Klose (correcta)
 
-b:
+b: Pelé
 
-c:
+c: Maradona 
 
-d:
+d: Lionel Messi
 
 Si pregunta_9 == a:
   
@@ -209,17 +209,17 @@ Si pregunta_9 == a:
 
 Sino mostrar incorrecto
 
-pregunta_10: ¿?
+pregunta_10: ¿En que grupo esta México?
 
 Opciones:
 
-a:
+a: Grupo E
 
-b:
+b: Grupo D
 
-c:
+c: Grupo C (correcta)
 
-d:
+d: Grupo A
 
 Si pregunta_10 == c:
   
@@ -229,17 +229,15 @@ Si pregunta_10 == c:
 
 Sino mostrar incorrecto
 
-pregunta_11: ¿?
+pregunta_11: ¿Qué selección enfrentara México en su primer partido?
 
 Opciones:
 
-a:
+a: Polonia (correcto)
 
-b:
+b: Argentina
 
-c:
-
-d:
+c: Arabia Saudita 
 
 Si pregunta_11 == a:
   
@@ -249,17 +247,17 @@ Si pregunta_11 == a:
 
 Sino mostrar incorrecto
 
-pregunta_12: ¿?
+pregunta_12: ¿Cuántas selecciones por grupo pasan a la siguente ronda?
 
 Opciones:
 
-a:
+a: 1 selección y la otra va a recalificación
 
-b:
+b: 3 selecciones 
 
-c:
+c: 1 selección
 
-d:
+d: 2 selecciones (correcto)
 
 Si pregunta_12 == d:
   
@@ -269,17 +267,17 @@ Si pregunta_12 == d:
 
 Sino mostrar incorrecto
 
-pregunta_13: ¿?
+pregunta_13: ¿En caso de empate en la final cuánto dura el tiempo extra?
 
 Opciones:
 
-a:
+a: 25 minutos
 
-b:
+b: 30 minutos (correcta)
 
-c:
+c: 45 minutos 
 
-d:
+d: 20 minutos 
 
 Si pregunta_13 == b:
   
@@ -289,17 +287,17 @@ Si pregunta_13 == b:
 
 Sino mostrar incorrecto
 
-pregunta_14: ¿?
+pregunta_14: ¿Cuál es el maximo de jugadores que puede llevar una selección?
 
 Opciones:
 
-a:
+a: 23 jugadores (correcta)
 
-b:
+b: 22 jugadores 
 
-c:
+c: 25 jugadores 
 
-d:
+d: 20 jugadores 
 
 Si pregunta_14 == a:
   
@@ -309,17 +307,17 @@ Si pregunta_14 == a:
 
 Sino mostrar incorrecto
 
-pregunta_15: ¿?
+pregunta_15: ¿Cuántos partidos se juegan durante la competición?
 
 Opciones:
 
-a:
+a: 58 partidos
 
-b:
+b: 52 partidos 
 
-c:
+c: 64 partidos (correcta)
 
-d:
+d: 60 partidos 
 
 Si pregunta_15 == c:
   
