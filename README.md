@@ -14,14 +14,20 @@ Este año se jugara la edición número 22 en Qatar, por ello la finalidad de es
 # Pseudocódigo
 
 Mostrar mensaje de bienvenida al usuario
+
 Nombre_usuario: ¿Como te llamas?
+
 comenzar: ¿Estas listo para comenzar? (sí=1, no=0)
+
 Si comenzar es == 1:
+
   comenzar prueba
 Si comenzar es == 0:
+
   volver a mostar la pregunta
 
 Pregunta 1: ¿
+
 Opciones:
 
 
