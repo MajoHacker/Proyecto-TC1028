@@ -13,7 +13,11 @@ Este año se jugara la edición número 22 en Qatar, por ello la finalidad de es
 
 # Pseudocódigo
 
+Mensaje de bienvenida al usuario
 
+Pedir nombre al usuario 
+
+Confirmar que el usuario esta listo para iniciar la prueba
 
 
 
