@@ -27,7 +27,7 @@ Si comenzar es == 0:
 
   volver a mostar la pregunta
   
-contar_puntos: variable que contara nuestros puntos
+contar_puntos: 0 (variable que contara nuestros puntos)
 
 pregunta_1: ¿?
 
