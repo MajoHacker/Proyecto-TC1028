@@ -333,21 +333,19 @@ res: preguntar al Nombre_usuario si desea conocer su puntuación (si=1, no=0)
 
 Si res es == 1:
 
-  mostrar resultados 
+  mostrar resultados: 
   
-    si contar_puntos <= 5:
+   si contar_puntos <= 5:
   
-    mostar al usurio el total de puntos y decirle que es un nivel principiante.
+   mostar al usurio el total de puntos y decirle que es un nivel principiante.
   
-    si contar_puntos <= 10:
+   si contar_puntos <= 10:
   
+   mostar al usuario el total de puntos y decirle que es un nivel profesional.
   
-    mostar al usurio el total de puntos y decirle que es un nivel principiante.
-  
-    si contar_puntos <= 15:
-  
-  
-  
+   si contar_puntos <= 15:
+   
+   mostar al usurio el total de puntos y decirle que es un nivel legendario.
   
 Si res es == 0:
 
