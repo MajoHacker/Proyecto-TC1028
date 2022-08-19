@@ -26,10 +26,18 @@ Si comenzar es == 1:
 Si comenzar es == 0:
 
   volver a mostar la pregunta
+  
+ contar_puntos: variable que contara nuestros puntos
 
-Pregunta 1: ¿
+Pregunta 1: ¿?
 
 Opciones:
+
+a:
+b:
+c:
+d:
+
 
 
 
