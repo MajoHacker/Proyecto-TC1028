@@ -208,6 +208,126 @@ Si Pregunta_9 == a:
   mostrar correcto
 
 Sino mostrar incorrecto
+
+Pregunta_10: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_10 == c:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_11: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_11 == a:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_12: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_12 == d:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_13: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_13 == b:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_14: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_14 == a:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
+
+Pregunta_15: ¿?
+
+Opciones:
+
+a:
+
+b:
+
+c:
+
+d:
+
+Si Pregunta_15 == c:
+  
+  contar_puntos + 1
+
+  mostrar correcto
+
+Sino mostrar incorrecto
   
 
 
