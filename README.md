@@ -329,9 +329,31 @@ Si Pregunta_15 == c:
 
 Sino mostrar incorrecto
   
+res: preguntar al Nombre_usuario si desea conocer su puntuación (si=1, no=0)
 
+Si res es == 1:
 
+  mostrar resultados 
+  
+    si contar_puntos <= 5:
+  
+    mostar al usurio el total de puntos y decirle que es un nivel principiante.
+  
+    si contar_puntos <= 10:
+  
+  
+    mostar al usurio el total de puntos y decirle que es un nivel principiante.
+  
+    si contar_puntos <= 15:
+  
+  
+  
+  
+Si res es == 0:
 
+  volver a mostar la pregunta
+
+Mensaje de despedida 
 
 
 
