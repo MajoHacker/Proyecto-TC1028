@@ -22,6 +22,7 @@ comenzar: ¿Estas listo para comenzar? (sí=1, no=0)
 Si comenzar es == 1:
 
   comenzar prueba
+  
 Si comenzar es == 0:
 
   volver a mostar la pregunta
