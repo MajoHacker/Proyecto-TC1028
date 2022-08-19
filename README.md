@@ -15,7 +15,7 @@ Este año se jugara la edición número 22 en Qatar, por ello la finalidad de es
 
 Mostrar mensaje de bienvenida al usuario
 
-Nombre_usuario: ¿Como te llamas?
+nombre_usuario: ¿Como te llamas?
 
 comenzar: ¿Estas listo para comenzar? (sí=1, no=0)
 
@@ -29,7 +29,7 @@ Si comenzar es == 0:
   
 contar_puntos: variable que contara nuestros puntos
 
-Pregunta_1: ¿?
+pregunta_1: ¿?
 
 Opciones:
 
@@ -41,7 +41,7 @@ c:
 
 d:
 
-Si Pregunta_1 == c:
+Si pregunta_1 == c:
   
   contar_puntos + 1
   
@@ -49,7 +49,7 @@ Si Pregunta_1 == c:
 
 Sino mostrar incorrecto
   
- Pregunta_2: ¿?
+ pregunta_2: ¿?
 
 Opciones:
 
@@ -61,7 +61,7 @@ c:
 
 d:
 
-Si Pregunta_2 == a:
+Si pregunta_2 == a:
   
   contar_puntos + 1
   
@@ -69,7 +69,7 @@ Si Pregunta_2 == a:
 
 Sino mostrar incorrecto
   
-Pregunta_3: ¿?
+pregunta_3: ¿?
 
 Opciones:
 
@@ -81,7 +81,7 @@ c:
 
 d:
 
-Si Pregunta_3 == a:
+Si pregunta_3 == a:
   
   contar_puntos + 1
   
@@ -89,7 +89,7 @@ Si Pregunta_3 == a:
 
 Sino mostrar incorrecto
   
-Pregunta_4: ¿?
+pregunta_4: ¿?
 
 Opciones:
 
@@ -101,7 +101,7 @@ c:
 
 d:
 
-Si Pregunta_4 == b:
+Si pregunta_4 == b:
   
   contar_puntos + 1
   
@@ -109,7 +109,7 @@ Si Pregunta_4 == b:
 
 Sino mostrar incorrecto
   
-Pregunta_5: ¿?
+pregunta_5: ¿?
 
 Opciones:
 
@@ -121,7 +121,7 @@ c:
 
 d:
 
-Si Pregunta_5 == d:
+Si pregunta_5 == d:
   
   contar_puntos + 1
 
@@ -129,7 +129,7 @@ Si Pregunta_5 == d:
 
 Sino mostrar incorrecto
 
-Pregunta_6: ¿?
+pregunta_6: ¿?
 
 Opciones:
 
@@ -141,7 +141,7 @@ c:
 
 d:
 
-Si Pregunta_6 == c:
+Si pregunta_6 == c:
   
   contar_puntos + 1
   
@@ -149,7 +149,7 @@ Si Pregunta_6 == c:
 
 Sino mostrar incorrecto
 
-Pregunta_7: ¿?
+pregunta_7: ¿?
 
 Opciones:
 
@@ -161,7 +161,7 @@ c:
 
 d:
 
-Si Pregunta_7 == b:
+Si pregunta_7 == b:
   
   contar_puntos + 1
 
@@ -169,7 +169,7 @@ Si Pregunta_7 == b:
 
 Sino mostrar incorrecto
 
-Pregunta_8: ¿?
+pregunta_8: ¿?
 
 Opciones:
 
@@ -181,7 +181,7 @@ c:
 
 d:
 
-Si Pregunta_8 == d:
+Si pregunta_8 == d:
   
   contar_puntos + 1
 
@@ -189,7 +189,7 @@ Si Pregunta_8 == d:
 
 Sino mostrar incorrecto
   
-Pregunta_9: ¿?
+pregunta_9: ¿?
 
 Opciones:
 
@@ -201,7 +201,7 @@ c:
 
 d:
 
-Si Pregunta_9 == a:
+Si pregunta_9 == a:
   
   contar_puntos + 1
 
@@ -209,7 +209,7 @@ Si Pregunta_9 == a:
 
 Sino mostrar incorrecto
 
-Pregunta_10: ¿?
+pregunta_10: ¿?
 
 Opciones:
 
@@ -221,7 +221,7 @@ c:
 
 d:
 
-Si Pregunta_10 == c:
+Si pregunta_10 == c:
   
   contar_puntos + 1
 
@@ -229,7 +229,7 @@ Si Pregunta_10 == c:
 
 Sino mostrar incorrecto
 
-Pregunta_11: ¿?
+pregunta_11: ¿?
 
 Opciones:
 
@@ -241,7 +241,7 @@ c:
 
 d:
 
-Si Pregunta_11 == a:
+Si pregunta_11 == a:
   
   contar_puntos + 1
 
@@ -249,7 +249,7 @@ Si Pregunta_11 == a:
 
 Sino mostrar incorrecto
 
-Pregunta_12: ¿?
+pregunta_12: ¿?
 
 Opciones:
 
@@ -261,7 +261,7 @@ c:
 
 d:
 
-Si Pregunta_12 == d:
+Si pregunta_12 == d:
   
   contar_puntos + 1
 
@@ -269,7 +269,7 @@ Si Pregunta_12 == d:
 
 Sino mostrar incorrecto
 
-Pregunta_13: ¿?
+pregunta_13: ¿?
 
 Opciones:
 
@@ -281,7 +281,7 @@ c:
 
 d:
 
-Si Pregunta_13 == b:
+Si pregunta_13 == b:
   
   contar_puntos + 1
 
@@ -289,7 +289,7 @@ Si Pregunta_13 == b:
 
 Sino mostrar incorrecto
 
-Pregunta_14: ¿?
+pregunta_14: ¿?
 
 Opciones:
 
@@ -301,7 +301,7 @@ c:
 
 d:
 
-Si Pregunta_14 == a:
+Si pregunta_14 == a:
   
   contar_puntos + 1
 
@@ -309,7 +309,7 @@ Si Pregunta_14 == a:
 
 Sino mostrar incorrecto
 
-Pregunta_15: ¿?
+pregunta_15: ¿?
 
 Opciones:
 
@@ -321,7 +321,7 @@ c:
 
 d:
 
-Si Pregunta_15 == c:
+Si pregunta_15 == c:
   
   contar_puntos + 1
 
@@ -329,7 +329,7 @@ Si Pregunta_15 == c:
 
 Sino mostrar incorrecto
   
-res: preguntar al Nombre_usuario si desea conocer su puntuación (si=1, no=0)
+res: preguntar al nombre_usuario si desea conocer su puntuación (si=1, no=0)
 
 Si res es == 1:
 
