@@ -29,17 +29,17 @@ Si comenzar es == 0:
   
 contar_puntos: 0 (variable que contara nuestros puntos)
 
-pregunta_1: ¿?
+pregunta_1: ¿Qué día inicia el mundial 2022?
 
 Opciones:
 
-a:
+a: 21 de noviembre 
 
-b:
+b: 19 de noviembre 
 
-c:
+c: 20 de noviembre (correcta)
 
-d:
+d: 22 de noviembre 
 
 Si pregunta_1 == c:
   
