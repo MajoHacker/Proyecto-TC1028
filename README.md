@@ -49,17 +49,17 @@ Si pregunta_1 == c:
 
 Sino mostrar incorrecto
   
- pregunta_2: ¿?
+ pregunta_2: ¿Qué dia termina la competición?
 
 Opciones:
 
-a:
+a: 18 de diciembre (correcta)
 
-b:
+b: 17 de diciembre 
 
-c:
+c: 19 de diciembre 
 
-d:
+d: 20 de diciembre
 
 Si pregunta_2 == a:
   
@@ -69,17 +69,17 @@ Si pregunta_2 == a:
 
 Sino mostrar incorrecto
   
-pregunta_3: ¿?
+pregunta_3: ¿Cuántos grupos hay?
 
 Opciones:
 
-a:
+a: 8 grupos (correcta)
 
-b:
+b: 6 grupos
 
-c:
+c: 10 grupos
 
-d:
+d: 12 grupos
 
 Si pregunta_3 == a:
   
@@ -89,17 +89,17 @@ Si pregunta_3 == a:
 
 Sino mostrar incorrecto
   
-pregunta_4: ¿?
+pregunta_4: ¿Cuántas selecciones hay por grupo?
 
 Opciones:
 
-a:
+a: 3 selecciones
 
-b:
+b: 4 selecciones (correcta)
 
-c:
+c: 5 selecciones
 
-d:
+d: 6 selecciones
 
 Si pregunta_4 == b:
   
@@ -109,17 +109,17 @@ Si pregunta_4 == b:
 
 Sino mostrar incorrecto
   
-pregunta_5: ¿?
+pregunta_5: ¿Quién es el actual campeón de la competición?
 
 Opciones:
 
-a:
+a: Inglaterra
 
-b:
+b: Croacia
 
-c:
+c: argentina 
 
-d:
+d: Francia (correcta)
 
 Si pregunta_5 == d:
   
@@ -129,17 +129,17 @@ Si pregunta_5 == d:
 
 Sino mostrar incorrecto
 
-pregunta_6: ¿?
+pregunta_6: ¿Cuál es el partido que inagurara la competición?
 
 Opciones:
 
-a:
+a: Qatar vs Senegal
 
-b:
+b: Argentina vs México
 
-c:
+c: Qatar vs Ecuador (correcta)
 
-d:
+d: Ecuador vs Senegal
 
 Si pregunta_6 == c:
   
@@ -149,17 +149,17 @@ Si pregunta_6 == c:
 
 Sino mostrar incorrecto
 
-pregunta_7: ¿?
+pregunta_7: ¿En qué estadio se disputara la final?
 
 Opciones:
 
-a:
+a: Al Bayt Stadium
 
-b:
+b: Lusail de Qatar Stadium (correcta)
 
-c:
+c: El Al Thumama Stadium
 
-d:
+d: Ras Abu Aboud Stadium
 
 Si pregunta_7 == b:
   
@@ -169,17 +169,17 @@ Si pregunta_7 == b:
 
 Sino mostrar incorrecto
 
-pregunta_8: ¿?
+pregunta_8: ¿Cuál es la selección con más mundiales?
 
 Opciones:
 
-a:
+a: Francia
 
-b:
+b: Argentina 
 
-c:
+c: Brasil
 
-d:
+d: Uruguay (correcta)
 
 Si pregunta_8 == d:
   
