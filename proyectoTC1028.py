@@ -13,7 +13,6 @@ while comenzar ==0:
   if comenzar ==1:
     print("\nPerfecto", nombre_usuario, "comencemos con la prueba:")
 # Crear funcinciones para reutilizar codigo
-# Funcion auxiliar para imprimir, muestra en pantalla la respueta correcta, la respuesta de usuario y la calificacion acumulada actual.
 # Funcion calificadora para la letra a
 def calificaa(respuesta_usuarioa):
   puntaje_a=0
