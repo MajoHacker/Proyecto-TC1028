@@ -8,7 +8,7 @@ comenzar = int(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
 # Condición para validar la respuesta del usuario
 if comenzar ==1:
   print("\nPerfecto", nombre_usuario, "comencemos con la prueba:")
-while comenzar ==0:
+while comenzar==0:
   comenzar = int(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
   if comenzar ==1:
     print("\nPerfecto", nombre_usuario, "comencemos con la prueba:")
@@ -39,6 +39,10 @@ def calificacionfinal(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   return final
 #Comenzar con las preguntas 
 pregunta_1=str(input("\n1.-¿Qué día inicia el mundial 2022?\na: 21 de noviembre\nb: 19 de noviembre\nc: 20 de noviembre \nd: 22 de noviembre\n"))
+#ciclo para validar la letra
+while pregunta_1 != "a" and pregunta_1 != "b" and pregunta_1 != "c"and pregunta_1 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_1=str(input("\n1.-¿Qué día inicia el mundial 2022?\na: 21 de noviembre\nb: 19 de noviembre\nc: 20 de noviembre \nd: 22 de noviembre\n"))
 if pregunta_1=="c":
   compara(pregunta_1,"c",0)
   print("Respuesta correcta")
@@ -46,6 +50,10 @@ else:
   print("Respuesta incorrecta, la respuesta correcta es la c")
 # Realizar pregunta 2 
 pregunta_2=str(input("\n2.-¿Qué día termina la competición?\n\na: 18 de diciembre\nb: 17 de diciembre\nc: 19 de diciembre\nd: 20 de diciembre\n"))
+#ciclo para validar la letra
+while pregunta_2 != "a" and pregunta_2 != "b" and pregunta_2 != "c"and pregunta_2 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_2=str(input("\n2.-¿Qué día termina la competición?\n\na: 18 de diciembre\nb: 17 de diciembre\nc: 19 de diciembre\nd: 20 de diciembre\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_2 == "a":
  compara(pregunta_2,"a",0)
@@ -54,6 +62,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la a")
 # Realizar la pregunta 3
 pregunta_3=str(input("\n3.-¿Cuántos grupos hay?\na: 8 grupos\nb: 6 grupos\nc: 10 grupos\nd: 12 grupos\n"))
+#ciclo para validar la letra
+while pregunta_3 != "a" and pregunta_3 != "b" and pregunta_3 != "c"and pregunta_3 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_3=str(input("\n3.-¿Cuántos grupos hay?\na: 8 grupos\nb: 6 grupos\nc: 10 grupos\nd: 12 grupos\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_3 == "a":
  compara(pregunta_3,"a",0)
@@ -62,6 +74,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la a")
 # Realizar la pregunta 4
 pregunta_4=str(input("\n4.-¿Cuántas selecciones hay por grupo?\na: 3 selecciones\nb: 4 selecciones\nc: 5 selecciones\nd: 6 selecciones\n"))
+#ciclo para validar la letra
+while pregunta_4 != "a" and pregunta_4 != "b" and pregunta_4 != "c"and pregunta_4 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_4=str(input("\n4.-¿Cuántas selecciones hay por grupo?\na: 3 selecciones\nb: 4 selecciones\nc: 5 selecciones\nd: 6 selecciones\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_4 == "b":
  compara(pregunta_4,"b",0)
@@ -70,6 +86,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la b")
 # Realizar la pregunta 5
 pregunta_5=str(input("\n5.-¿Quién es el actual campeón?\na: Inglaterra\nb: Croacia\nc: Argentina\nd: Francia\n"))
+#ciclo para validar la letra
+while pregunta_5 != "a" and pregunta_5 != "b" and pregunta_5 != "c"and pregunta_5 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_5=str(input("\n5.-¿Quién es el actual campeón?\na: Inglaterra\nb: Croacia\nc: Argentina\nd: Francia\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_5 == "d":
  compara(pregunta_5,"d",0)
@@ -78,6 +98,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la d")
 # Realizar la pregunta 6
 pregunta_6=str(input("\n6.-¿Cuál es el partido que inagurara la competición?\na: Qatar vs Senegal\nb: Argentina vs México\nc: Qatar vs Ecuador\nd: Ecuador vs Senegal\n"))
+#ciclo para validar la letra
+while pregunta_6 != "a" and pregunta_6 != "b" and pregunta_6 != "c"and pregunta_6 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_6=str(input("\n6.-¿Cuál es el partido que inagurara la competición?\na: Qatar vs Senegal\nb: Argentina vs México\nc: Qatar vs Ecuador\nd: Ecuador vs Senegal\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_6 == "c":
  compara(pregunta_6,"c",0)
@@ -86,6 +110,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la c")
 # Realizar la pregunta 7
 pregunta_7=str(input("\n7.-¿En qué estadio se disputara la final?\na: Al Bayt Stadium\nb: Lusail de Qatar Stadium\nc: El Al Thumama Stadium\nd: Ras Abu Aboud Stadium\n"))
+#ciclo para validar la letra
+while pregunta_7 != "a" and pregunta_7 != "b" and pregunta_7 != "c"and pregunta_7 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_7=str(input("\n7.-¿En qué estadio se disputara la final?\na: Al Bayt Stadium\nb: Lusail de Qatar Stadium\nc: El Al Thumama Stadium\nd: Ras Abu Aboud Stadium\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_7 == "b":
  compara(pregunta_7,"b",0)
@@ -94,6 +122,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la b")
 # Realizar la pregunta 8
 pregunta_8=str(input("\n8.-¿Cuál es la selección con más mundiales?\na: Francia\nb: Argentina\nc: Brasil\nd: Uruguay\n"))
+#ciclo para validar la letra
+while pregunta_8 != "a" and pregunta_8 != "b" and pregunta_8 != "c"and pregunta_8 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_8=str(input("\n8.-¿Cuál es la selección con más mundiales?\na: Francia\nb: Argentina\nc: Brasil\nd: Uruguay\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_8 == "d":
  compara(pregunta_8,"d",0)
@@ -102,6 +134,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la d")
 # Realizar la pregunta 9
 pregunta_9=str(input("\n9.-¿Cuál es el jugador que ha anotado más goles en los mundiales?\na: Miroslav Klose\nb: Pelé\nc: Maradona\nd: Messi\n"))
+#ciclo para validar la letra
+while pregunta_9 != "a" and pregunta_9 != "b" and pregunta_9 != "c"and pregunta_9 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_9=str(input("\n9.-¿Cuál es el jugador que ha anotado más goles en los mundiales?\na: Miroslav Klose\nb: Pelé\nc: Maradona\nd: Messi\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_9 == "a":
  compara(pregunta_9,"a",0)
@@ -110,6 +146,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la a")
 # Realizar la pregunta 10
 pregunta_10=str(input("\n10.-¿En que grupo esta México?\na: Grupo E\nb: Grupo D\nc: Grupo C\nd: Grupo A\n"))
+#ciclo para validar la letra
+while pregunta_10 != "a" and pregunta_10 != "b" and pregunta_10 != "c"and pregunta_10 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_10=str(input("\n10.-¿En que grupo esta México?\na: Grupo E\nb: Grupo D\nc: Grupo C\nd: Grupo A\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_10 == "c":
  compara(pregunta_10,"c",0)
@@ -118,6 +158,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la c")
 # Realizar la pregunta 11
 pregunta_11=str(input("\n11.-¿Qué selección enfrentara México en su primer partido?\na: Polonia\nb: Argentina\nc: Arabia Saudita\n"))
+#ciclo para validar la letra
+while pregunta_11 != "a" and pregunta_11 != "b" and pregunta_11 != "c":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_11=str(input("\n11.-¿Qué selección enfrentara México en su primer partido?\na: Polonia\nb: Argentina\nc: Arabia Saudita\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_11 == "a":
  compara(pregunta_11,"a",0)
@@ -126,6 +170,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la a")
 # Realizar la pregunta 12
 pregunta_12=str(input("\n12.-¿Cuántas selecciones por grupo pasan a la siguente ronda?\na: 1 selección y la otra va a recalificación\nb: 3 selecciones\nc: 1 selección\nd: 2 selecciones\n"))
+#ciclo para validar la letra
+while pregunta_12 != "a" and pregunta_12 != "b" and pregunta_12 != "c"and pregunta_12 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_12=str(input("\n12.-¿Cuántas selecciones por grupo pasan a la siguente ronda?\na: 1 selección y la otra va a recalificación\nb: 3 selecciones\nc: 1 selección\nd: 2 selecciones\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_12 == "d":
  compara(pregunta_12,"d",0)
@@ -134,6 +182,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la d")
 # Realizar la pregunta 13
 pregunta_13=str(input("\n13.-¿En caso de empate en la final cuánto dura el tiempo extra?\na: 25 minutos\nb: 30 minutos\nc: 45 minutos\nd: 20 minutos\n"))
+#ciclo para validar la letra
+while pregunta_13 != "a" and pregunta_13 != "b" and pregunta_13 != "c"and pregunta_13 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_13=str(input("\n13.-¿En caso de empate en la final cuánto dura el tiempo extra?\na: 25 minutos\nb: 30 minutos\nc: 45 minutos\nd: 20 minutos\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_13 == "b":
  compara(pregunta_13,"b",0)
@@ -142,6 +194,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la b")
 # Realizar la pregunta 14
 pregunta_14=str(input("\n14.-¿Cuál es el maximo de jugadores que puede llevar una selección?\na: 23 jugadores\nb: 22 jugadores\nc: 25 jugadores\nd: 20 jugadores\n"))
+#ciclo para validar la letra
+while pregunta_14 != "a" and pregunta_14 != "b" and pregunta_14 != "c"and pregunta_14 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_14=str(input("\n14.-¿Cuál es el maximo de jugadores que puede llevar una selección?\na: 23 jugadores\nb: 22 jugadores\nc: 25 jugadores\nd: 20 jugadores\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_14 == "a":
  compara(pregunta_14,"a",0)
@@ -150,6 +206,10 @@ else:
  print("Respuesta incorrecta, la respuesta correcta es la a")
 # Realizar la pregunta 15
 pregunta_15=str(input("\n15.-¿Cuántos partidos se juegan durante la competición?\na: 58 partidos\nb: 52 partidos\nc: 64 partidos\nd: 60 partidos\n"))
+#ciclo para validar la letra
+while pregunta_15 != "a" and pregunta_15 != "b" and pregunta_15 != "c"and pregunta_15 !="d":
+  print("La letra ingresada es invalida, intentalo de nuevo\n")
+  pregunta_15=str(input("\n15.-¿Cuántos partidos se juegan durante la competición?\na: 58 partidos\nb: 52 partidos\nc: 64 partidos\nd: 60 partidos\n"))
 # Condición para validar si la respuesta del usuario fue correcta y si asi lo es sumarle un punto
 if pregunta_15 == "c":
  compara(pregunta_15,"c",0)
