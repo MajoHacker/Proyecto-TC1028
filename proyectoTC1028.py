@@ -37,6 +37,25 @@ def calificacionfinal(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   r15=compara(p15,"c",0)
   final=r1+r2+r3+r4+r5+r6+r7+r8+r9+r10+r11+r12+r13+r14+r15
   return final
+# Función que guarde las respuestas del usuario en una lista
+def crea_lista (p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
+  lista=[]
+  lista.append(p1)
+  lista.append(p2)
+  lista.append(p3)
+  lista.append(p4)
+  lista.append(p5)
+  lista.append(p6)
+  lista.append(p7)
+  lista.append(p8)
+  lista.append(p9)
+  lista.append(p10)
+  lista.append(p11)
+  lista.append(p12)
+  lista.append(p13)
+  lista.append(p14)
+  lista.append(p15)
+  return lista
 #Comenzar con las preguntas 
 pregunta_1=str(input("\n1.-¿Qué día inicia el mundial 2022?\na: 21 de noviembre\nb: 19 de noviembre\nc: 20 de noviembre \nd: 22 de noviembre\n"))
 #ciclo para validar la letra
@@ -232,6 +251,13 @@ elif calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pr
   print("Tu nivel rumbo a Qatar 2022 es profesional", nombre_usuario, "ya que de 15 puntos posibles, obtuviste", calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15), "\n")
 elif calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15) >= 10:
   print("Tu nivel rumbo a Qatar 2022 es legendario", nombre_usuario, "ya que de 15 puntos posibles, obtuviste", calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15), "\n")
+# Preguntar al usuario si desea ver sus respuestas 
+lista_respuesta=int(input("\n¿Deseas ver tus respuestas?\n sí=1  no=0\n")) 
+if lista_respuesta==1:
+ lista_re=crea_lista(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15)
+ print("Ok tus respuestas fueron:\n", lista_re, "\n")
+elif lista_respuesta==0:
+ print("\nOk\n")
 # Mostar un mensaje de despedida al usuario
 ListaDespedida=["G","R","A","C","I","A","S"]
 for x in ListaDespedida:
