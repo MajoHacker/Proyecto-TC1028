@@ -56,6 +56,15 @@ def crea_lista (p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   lista.append(p14)
   lista.append(p15)
   return lista
+# Importar tiempo y funcion contadora del tiempo
+import time 
+def contar_seg(t): 
+  while t: 
+   mins, secs = divmod(t, 60) 
+   timer = '{:02d}:{:02d}'.format(mins, secs) 
+   print(timer, end="\r") 
+   time.sleep(1) 
+   t=t-1
 #Comenzar con las preguntas 
 pregunta_1=str(input("\n1.-¿Qué día inicia el mundial 2022?\na: 21 de noviembre\nb: 19 de noviembre\nc: 20 de noviembre \nd: 22 de noviembre\n"))
 #ciclo para validar la letra
