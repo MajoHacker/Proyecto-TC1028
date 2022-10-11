@@ -56,15 +56,9 @@ def crea_lista (p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   lista.append(p14)
   lista.append(p15)
   return lista
-# Importar tiempo y funcion contadora del tiempo
-import time 
-def contar_seg(t): 
-  while t: 
-   mins, secs = divmod(t, 60) 
-   timer = '{:02d}:{:02d}'.format(mins, secs) 
-   print(timer, end="\r") 
-   time.sleep(1) 
-   t=t-1
+# Importar tiempo y contar el tiempo
+import time
+empiezo=time.time()
 #Comenzar con las preguntas 
 pregunta_1=str(input("\n1.-¿Qué día inicia el mundial 2022?\na: 21 de noviembre\nb: 19 de noviembre\nc: 20 de noviembre \nd: 22 de noviembre\n"))
 #ciclo para validar la letra
@@ -249,10 +243,14 @@ fin=int(input("\nAcabaste la prueba, ¿Deseas conocer tus resultados?\nsí=1  no
 # Condición para validar la respuesta del usuario
 if fin ==1:
   print("\nPerfecto", nombre_usuario, "tus resultados son los siguentes:\n")
+  termino = time.time()
+  print("\nTardaste:", termino-empiezo,"segundos")
 while fin ==0:
   fin=int(input("\nAcabaste la prueba, ¿Deseas conocer tus resultados?\nsí=1  no=0\n"))
   if fin ==1:
     print("\nPerfecto", nombre_usuario, "tus resultados son los siguentes:\n")
+    termino = time.time()
+    print("\nTardaste:", termino-empiezo,"segundos")
 #Crear condiciones dependiendo la cantidad de puntos obtenidos por el usuario
 if calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15) <= 5:
   print("Tu nivel rumbo a Qatar 2022 es principiante", nombre_usuario, "ya que de 15 puntos posibles, solo obtuviste", calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15), "\n")
