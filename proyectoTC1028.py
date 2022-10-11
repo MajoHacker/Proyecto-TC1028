@@ -56,7 +56,7 @@ def crea_lista (p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   lista.append(p14)
   lista.append(p15)
   return lista
-# Importar tiempo y contar el tiempo
+# Importar la biblioteca time que  contiene una serie de funciones relacionadas con la medición del tiempo, ya que utilizaremos la función time devuelve el número de segundos transcurridos
 import time
 empiezo=time.time()
 #Comenzar con las preguntas 
