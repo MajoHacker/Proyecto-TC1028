@@ -17,6 +17,16 @@ Mostrar mensaje de bienvenida al usuario
 
 nombre_usuario: ¿Como te llamas?
 
+Crear funciones para reutilizar codigo
+
+Función calificadora
+
+def compara(respuesta_usuario, respuesta_correcta, puntaje):
+   if respuesta_usuario==respuesta_correcta:
+   puntaje = puntaje + 1
+  return puntaje
+
+
 comenzar: ¿Estas listo para comenzar? (sí=1, no=0)
 
 Si comenzar es == 1:
@@ -27,7 +37,7 @@ Si comenzar es == 0:
 
   volver a mostar la pregunta
   
-contar_puntos: 0 (variable que contara nuestros puntos)
+
 
 pregunta_1: ¿Qué día inicia el mundial 2022?
 
