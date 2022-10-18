@@ -261,13 +261,18 @@ elif calificacionfinal(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pr
 # Preguntar al usuario si desea ver sus respuestas 
 lista_respuesta=str(input("\n¿Deseas ver tus respuestas?\n sí=1  no=0\n"))
 if lista_respuesta=="1":
- lista_re=crea_lista(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15)
- print("Ok tus respuestas fueron:\n", lista_re, "\n")
-if lista_respuesta=="0":
- print("\nOk\n")
+  lista_re=crea_lista(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15)
+  print("Ok tus respuestas fueron:\n", lista_re, "\n")
+elif lista_respuesta=="0":
+  print("\nOk\n")
 # Ciclo para validar la respuesta
 while lista_respuesta != "1" and lista_respuesta!= "0":
- lista_respuesta=str(input("\n¿Deseas ver tus respuestas?\n sí=1  no=0\n"))
+  lista_respuesta=str(input("\n¿Deseas ver tus respuestas?\n sí=1  no=0\n"))
+  if lista_respuesta=="1":
+    lista_re=crea_lista(pregunta_1,pregunta_2,pregunta_3,pregunta_4,pregunta_5,pregunta_6,pregunta_7,pregunta_8,pregunta_9,pregunta_10,pregunta_11,pregunta_12,pregunta_13,pregunta_14,pregunta_15)
+    print("Ok tus respuestas fueron:\n", lista_re, "\n")
+  elif lista_respuesta=="0":
+    print("\nOk\n")
 # Mostar un mensaje de despedida al usuario
 ListaDespedida=["G","R","A","C","I","A","S"]
 for x in ListaDespedida:
