@@ -4,13 +4,13 @@ print("Bienvenid@ a ¿Qué tán preparado estas para el mundial Qatar 2022?\n")
 # Preguntarle al usuario su nombre y guardar la variable como nombre_usuario
 nombre_usuario=input("¿Cuál es tu nombre?\n")
 # Pregunatar si el usuario esta listo para comenzar la prueba
-comenzar = int(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
+comenzar = str(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
 # Condición para validar la respuesta del usuario
-if comenzar ==1:
+if comenzar == "1":
   print("\nPerfecto", nombre_usuario, "comencemos con la prueba:")
-while comenzar==0:
-  comenzar = int(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
-  if comenzar ==1:
+while comenzar != "1":
+  comenzar = str(input("\n¿Deseas comenzar con la prueba?\n sí=1  no=0\n"))
+  if comenzar == "1":
     print("\nPerfecto", nombre_usuario, "comencemos con la prueba:")
 # Crear funcinciones para reutilizar codigo
 # Funcion calificadora
