@@ -10,6 +10,7 @@ Espero les guste :)
 
 Este año se jugara la edición número 22 en Qatar, por ello la finalidad de este programa es determinar que tan preparado estás para ver esta copa del mundo mediante series de preguntas que determinaran en que nivel te encuentras (todas las respuestas a las preguntas son sacadas del sitio oficial de la FIFA), al final el programa arrojara tu resultado en 3 distintos niveles en los que el programa puede posicionarte en el más bajo: principiante (0-5 respuestas correctas), el intermedio: profesional (6-10 respuestas correctas), y el más alto: legendario (11-15 respuestas correctas).
 
+Asimismo para la realización de este proyecto se ocupara la biblioteca time, la cual es una biblioteca con funciones relacionadas al tiempo, ya que haremos uso de la funcion time() la cual cuenta los segundos transcurridos de una operación, en este caso sera los segundos transcurridos desde que el usuario comience con el cuestionario hasta que lo termine. 
 
 # Pseudocódigo
 
