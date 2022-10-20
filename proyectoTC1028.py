@@ -68,7 +68,7 @@ def crea_lista (p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15):
   lista.append(p15)
   return lista
 
-def ciclo (respuesta_usuario, numero_pregunta):
+def ciclo (respuesta_usuario,numero_pregunta):
   """
   Función que verifica que el usuario ingresa una letra válida
   """
@@ -76,6 +76,8 @@ def ciclo (respuesta_usuario, numero_pregunta):
   respuesta_usuario != "c"and respuesta_usuario !="d":
     print("La letra ingresada es invalida, intentalo de nuevo\n")
     respuesta_usuario=str(input(numero_pregunta))
+    return respuesta_usuario
+   
    
 """
 ========  guardar las preguntas del programa ==================================
@@ -159,8 +161,8 @@ empiezo=time.time()
 pregunta_1=str(input(prg1))
 
 # Llamar la función ciclo para validar la letra
-ciclo(pregunta_1,prg1)
-
+pregunta_1 = ciclo(pregunta_1,prg1)
+  
 # Verificar la respuesta de usuario 
 if pregunta_1=="c":
   
@@ -173,21 +175,21 @@ if pregunta_1=="c":
 # Imprimir "resultado erroneo" 
 else: 
   print("Respuesta incorrecta, la respuesta correcta es la c")
-  
+
 # Realizar pregunta 2 
 pregunta_2=str(input(prg2))
 
 # Llamar la función ciclo para validar la letra
-ciclo(pregunta_2,prg2)
+pregunta_2 = ciclo(pregunta_2,prg2)
 
 # Verificar la respuesta del usuario
 if pregunta_2 == "a":
 
   # llamar la función compara
- compara(pregunta_2,"a",0)
+  compara(pregunta_2,"a",0)
   
-  # Imprimir el resultado 
- print("Respuesta correcta")
+  # Imprimir el resultado
+  print("Respuesta correcta")
 
 # Imprimir el "resultado erroneo" 
 else:
@@ -197,7 +199,7 @@ else:
 pregunta_3=str(input(prg3))
 
 # Llamar la función ciclo para validar la letra 
-ciclo (pregunta_3,prg3)
+pregunta_3 = ciclo (pregunta_3,prg3)
 
 # Verificar respuesta del usuario
 if pregunta_3 == "a":
@@ -216,7 +218,7 @@ else:
 pregunta_4=str(input(prg4))
 
 # Llamar la función ciclo para validar letra
-ciclo(pregunta_4,prg4)
+pregunta_4 = ciclo(pregunta_4,prg4)
 
 # Verificar respuesta del usuario
 if pregunta_4 == "b":
@@ -235,7 +237,7 @@ else:
 pregunta_5=str(input(prg5))
 
 # llamar la función ciclo para validar letra 
-ciclo(pregunta_5,prg5)
+pregunta_5 =ciclo(pregunta_5,prg5)
 
 # Verificar la respuesta del usuario
 if pregunta_5 == "d":
@@ -254,7 +256,7 @@ else:
 pregunta_6=str(input(prg6))
 
 # Llamar la función ciclo para validar letra 
-ciclo(pregunta_6,prg6)
+pregunta_6 = ciclo(pregunta_6,prg6)
 
 # Verificar la respuesta del usuario
 if pregunta_6 == "c":
@@ -273,7 +275,7 @@ else:
 pregunta_7=str(input(prg7))
 
 # llamar la función ciclo para validar letra
-ciclo(pregunta_7,prg7)
+pregunta_7 = ciclo(pregunta_7,prg7)
 
 # Verifica la respuesta del usuario
 if pregunta_7 == "b":
@@ -292,7 +294,7 @@ else:
 pregunta_8=str(input(prg8))
 
 # Llamar la función ciclo para validar letra
-ciclo(pregunta_8,prg8)
+pregunta_8 = ciclo(pregunta_8,prg8)
 
 # Verifica la respuesta del usuario
 if pregunta_8 == "d":
@@ -311,7 +313,7 @@ else:
 pregunta_9=str(input(prg9))
 
 # Llamar la función ciclo para validar letra
-ciclo(pregunta_9,prg9)
+pregunta_9 = ciclo(pregunta_9,prg9)
 
 # Verifica la respuesta del usuario
 if pregunta_9 == "a":
@@ -330,7 +332,7 @@ else:
 pregunta_10=str(input(prg10))
 
 # llamar la función ciclo para validar letra
-ciclo(pregunta_10,prg10)
+pregunta_10 = ciclo(pregunta_10,prg10)
 
 # Verifica la respuesta del usuario
 if pregunta_10 == "c":
@@ -349,7 +351,7 @@ else:
 pregunta_11=str(input(prg11))
 
 # llamar la función ciclo para validar letra
-ciclo(pregunta_11,prg11)
+pregunta_11 = ciclo(pregunta_11,prg11)
 
 # Verifica la respuesta del usuario
 if pregunta_11 == "a":
@@ -368,7 +370,7 @@ else:
 pregunta_12=str(input(prg12))
 
 # llamar la función ciclo para validar letra
-ciclo(pregunta_12,prg12)
+pregunta_12 = ciclo(pregunta_12,prg12)
 
 # Verifica la respuesta del usuario
 if pregunta_12 == "d":
@@ -387,7 +389,7 @@ else:
 pregunta_13=str(input(prg13))
 
 # llamar la función ciclo para validar letra 
-ciclo(pregunta_13,prg13)
+pregunta_13 = ciclo(pregunta_13,prg13)
 
 # Verifica la respuesta del usuario
 if pregunta_13 == "b":
@@ -406,7 +408,7 @@ else:
 pregunta_14=str(input(prg14))
 
 # llamar la función ciclo para validar letra
-ciclo(pregunta_14,prg14)
+pregunta_14 = ciclo(pregunta_14,prg14)
 
 # Verifica la respuesta del usuario
 if pregunta_14 == "a":
@@ -425,7 +427,7 @@ else:
 pregunta_15=str(input(prg15))
 
 # llamar la funcion ciclo para validar letra 
-ciclo(pregunta_15,prg15)
+pregunta_15 = ciclo(pregunta_15,prg15)
 
 # Verifica la respuesta del usuario
 if pregunta_15 == "c":
